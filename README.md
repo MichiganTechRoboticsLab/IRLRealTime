@@ -18,3 +18,13 @@ findclosept.m	| finds the first point in a point cloud close to another.  (DO NO
 findclosepts.m	| finds the closest point in a pointcloud to a given point
 findnclusters.m	| finds clusters of points and marks them with their group.  similar to k-means but w/o knowing k.  It's recursive now but in the future I should make it iterative.
 
+--
+
+The only two important files are the ones described below, the other files were me just experimenting with different forms of matching/ feature algorithms.
+
+File			| Description
+-------------------------------
+udp_cross.m		| Bare minimum for combining LIDAR and vectornav over UDP
+udp_line_showoff.m	| Bare minimum for a corner detection over UDP algorithm.
+
+
