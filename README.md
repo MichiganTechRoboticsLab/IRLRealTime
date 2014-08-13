@@ -16,5 +16,5 @@ arr2num.m	| generalized version of arr2int.m, flips bytes and returns hex from U
 calcdisp.m	| calculates the displacement of two 2-d clouds, assuming matches points line up (very shaky)
 findclosept.m	| finds the first point in a point cloud close to another.  (DO NOT USE)
 findclosepts.m	| finds the closest point in a pointcloud to a given point
-findnclusters.m	| finds clusters of points and marks them with their group.  similar to k-means but w/o knowing k
+findnclusters.m	| finds clusters of points and marks them with their group.  similar to k-means but w/o knowing k.  It's recursive now but in the future I should make it iterative.
 
